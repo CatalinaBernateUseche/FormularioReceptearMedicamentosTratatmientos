@@ -1,0 +1,43 @@
+<form>
+Receta Médica
+<br>
+<input type="text" name="nombres" id="nombres" placeholder="Digite los nombres del paciente" required>
+<br>
+<input type="text" name="apellidos" id="apellidos" placeholder="Digite los apellidos del paciente" required>
+<br>
+<input type="number" name="ct" id="ct" placeholder="Digite la Cedula o Tarjeta de Identidad del paciente" required>
+<br>
+<input type="number" name="EdadPaciente" id="EdadPaciente" placeholder="Digite la edad del paciente" required>
+<br>
+<label for="genero">Genero:</label>
+<br>
+<input type="radio" id="generoM" name="genero" value="Masculino" required>
+<label for="generoM">Masculino</label>
+<br>
+<input type="radio" id="generoF" name="genero" value="Femenino" required>
+<label for="generoF">Femenino</label>
+<br>
+<select name="TipoSangre" required>
+<option value=""> Seleccione su tipo de sangre </option>
+<option value="A+"> A+ </option>
+<option value="O+"> O+ </option>
+<option value="B+"> B+ </option>
+<option value="AB+"> AB+ </option>
+<option value="A-"> A- </option>
+<option value="O-"> O- </option>
+<option value="B-"> B- </option>
+<option value="AB-"> AB- </option>
+</select>
+<br>
+Fecha de nacimiento:
+
+<input type="date" name="FechaNacimiento" id="FechaNacimiento" required>
+<br>
+<input type="number" name="Contacto de emergencia" id="Contacto de emergencia" placeholder="Digite el contacto de emergencia" required>
+<br>
+<input type="text" name="Sintomas" id="Sintomas" placeholder="Digite los sintomas del paciente" required>
+<br>
+<input type="form" name="FormularMedicamentos" id="FormularMedicamentos" placeholder="Receptar los medicamentos al paciente" required>
+<br>
+<input type="submit" value="Guardar">
+</form>
